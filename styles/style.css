@@ -12,6 +12,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: start;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -277,7 +278,8 @@ ol {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
   position: relative;
 }
 
